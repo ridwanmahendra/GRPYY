@@ -1,0 +1,135 @@
+{
+  "settings": {
+    "name": "Groupy",
+    "version": "2.3",
+    "welcome": "Selamat datang! Klik app untuk login otomatis."
+  },
+  "categories": [
+    { "id": "productivity", "label": "Productivity & AI",  "emoji": "⚡" },
+    { "id": "entertainment","label": "Entertainment",       "emoji": "🎬" },
+    { "id": "visual",       "label": "Visual Creation",    "emoji": "🎨" },
+    { "id": "learning",     "label": "Learning",           "emoji": "📚" },
+    { "id": "essentials",   "label": "Essentials",         "emoji": "⚙️" }
+  ],
+  "apps": [
+    {
+      "id": "netflix-1",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/browse",
+      "emoji": "",
+      "category": "entertainment",
+      "tier": "premium",
+      "badge": 0,
+      "enabled": true,
+      "description": "Streaming film & series",
+      "cookies": [
+        {
+          "name": "NetflixId",
+          "value": "GANTI_DENGAN_COOKIE_ASLI",
+          "path": "/",
+          "domain": ".netflix.com",
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": "lax"
+        },
+        {
+          "name": "SecureNetflixId",
+          "value": "GANTI_DENGAN_COOKIE_ASLI",
+          "path": "/",
+          "domain": ".netflix.com",
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": "lax"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-1",
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "emoji": "",
+      "category": "productivity",
+      "tier": "premium",
+      "badge": 55,
+      "enabled": true,
+      "description": "AI ChatGPT Plus",
+      "cookies": [
+        {
+          "name": "__Secure-next-auth.session-token",
+          "value": "GANTI_DENGAN_COOKIE_ASLI",
+          "path": "/",
+          "domain": ".chat.openai.com",
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": "lax"
+        }
+      ]
+    },
+    {
+      "id": "canva-1",
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "emoji": "",
+      "category": "visual",
+      "tier": "premium",
+      "badge": 20,
+      "enabled": true,
+      "description": "Design tool premium",
+      "cookies": [
+        {
+          "name": "session_id",
+          "value": "GANTI_DENGAN_COOKIE_ASLI",
+          "path": "/",
+          "domain": ".canva.com",
+          "secure": true,
+          "httpOnly": false,
+          "sameSite": "lax"
+        }
+      ]
+    },
+    {
+      "id": "notion-1",
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "emoji": "📝",
+      "category": "productivity",
+      "tier": "premium",
+      "badge": 0,
+      "enabled": true,
+      "description": "All-in-one workspace",
+      "cookies": [
+        {
+          "name": "token_v2",
+          "value": "GANTI_DENGAN_COOKIE_ASLI",
+          "path": "/",
+          "domain": ".notion.so",
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": "lax"
+        }
+      ]
+    },
+    {
+      "id": "coursera-1",
+      "name": "Coursera",
+      "url": "https://www.coursera.org",
+      "emoji": "",
+      "category": "learning",
+      "tier": "premium",
+      "badge": 0,
+      "enabled": true,
+      "description": "Online learning platform",
+      "cookies": [
+        {
+          "name": "CAUTH",
+          "value": "GANTI_DENGAN_COOKIE_ASLI",
+          "path": "/",
+          "domain": ".coursera.org",
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": "lax"
+        }
+      ]
+    }
+  ]
+}
